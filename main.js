@@ -1596,7 +1596,7 @@ __p+='`),
           r = document,
           n = e("html"),
           i = e("body"),
-        //   o = ".w-webflow-badge",
+          // o = ".w-webflow-badge",
           a = window.location,
           s = /PhantomJS/i.test(navigator.userAgent),
           u =
@@ -11675,13 +11675,19 @@ Webflow.require("ix2").init({
           autoStopEventId: "e-14",
         },
       },
-      mediaQueries: ["main", "medium", "small", "tiny"],
+      mediaQueries: ["main", "medium"],
       target: {
+        id: "65c9ea81b4d3660015f7dded|5145c5eb-d4be-9971-221f-df4f2f3ccddc",
         appliesTo: "ELEMENT",
         styleBlockIds: [],
-        id: "65c9ea81b4d3660015f7dded|5145c5eb-d4be-9971-221f-df4f2f3ccddc",
       },
-      targets: [],
+      targets: [
+        {
+          id: "65c9ea81b4d3660015f7dded|5145c5eb-d4be-9971-221f-df4f2f3ccddc",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
       config: {
         loop: false,
         playInReverse: false,
@@ -11711,13 +11717,19 @@ Webflow.require("ix2").init({
           autoStopEventId: "e-16",
         },
       },
-      mediaQueries: ["main", "medium", "small", "tiny"],
+      mediaQueries: ["main"],
       target: {
+        id: "65c9ea81b4d3660015f7dded|a424a400-2243-6fad-d304-0ff2ad00606b",
         appliesTo: "ELEMENT",
         styleBlockIds: [],
-        id: "65c9ea81b4d3660015f7dded|a424a400-2243-6fad-d304-0ff2ad00606b",
       },
-      targets: [],
+      targets: [
+        {
+          id: "65c9ea81b4d3660015f7dded|a424a400-2243-6fad-d304-0ff2ad00606b",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
       config: {
         loop: false,
         playInReverse: false,
@@ -11747,13 +11759,19 @@ Webflow.require("ix2").init({
           autoStopEventId: "e-18",
         },
       },
-      mediaQueries: ["main", "medium", "small", "tiny"],
+      mediaQueries: ["main"],
       target: {
+        id: "65c9ea81b4d3660015f7dded|518862c1-82c0-4cb0-9568-27a1bc9777e0",
         appliesTo: "ELEMENT",
         styleBlockIds: [],
-        id: "65c9ea81b4d3660015f7dded|518862c1-82c0-4cb0-9568-27a1bc9777e0",
       },
-      targets: [],
+      targets: [
+        {
+          id: "65c9ea81b4d3660015f7dded|518862c1-82c0-4cb0-9568-27a1bc9777e0",
+          appliesTo: "ELEMENT",
+          styleBlockIds: [],
+        },
+      ],
       config: {
         loop: false,
         playInReverse: false,
