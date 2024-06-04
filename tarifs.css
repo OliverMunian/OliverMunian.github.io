@@ -2439,7 +2439,7 @@ textarea.w-select {
   margin-right: 0;
   font-family: Montserrat, sans-serif;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .container-2 {
@@ -3736,6 +3736,11 @@ textarea.w-select {
     width: 350px;
   }
 
+  .text-block-6 {
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
   .columns-4 {
     flex-flow: row;
     justify-content: center;
@@ -4043,7 +4048,7 @@ textarea.w-select {
   }
 
   .heading-11 {
-    color: #950a00;
+    color: #fff;
   }
 
   .container-25 {
@@ -4125,11 +4130,13 @@ textarea.w-select {
   .container-31 {
     border-right-style: dashed;
     border-right-width: 1px;
+    padding-top: 0;
     padding-left: 5px;
     padding-right: 5px;
   }
 
   .container-32 {
+    padding-top: 33px;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -4140,6 +4147,7 @@ textarea.w-select {
 
   .container-36 {
     margin-top: 30px;
+    position: static;
   }
 
   .heading-30 {
@@ -4148,7 +4156,8 @@ textarea.w-select {
   }
 
   .paragraph-7,
-  .paragraph-8 {
+  .paragraph-8,
+  .paragraph-11 {
     text-align: center;
   }
 }
