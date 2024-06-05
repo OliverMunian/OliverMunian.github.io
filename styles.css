@@ -2631,7 +2631,8 @@ textarea.w-input, textarea.w-select {
   border-radius: 40px;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-self: auto;
+  align-items: center;
   padding: 20px 40px;
   display: flex;
 }
@@ -2642,7 +2643,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .column-3 {
-  flex-flow: row;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -3356,9 +3357,9 @@ textarea.w-input, textarea.w-select {
 
 .container-28 {
   background-color: #930b01;
-  border: 2px solid #000;
+  border: 0 solid #000;
   border-radius: 15px 3px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .text-block-8 {
@@ -3503,6 +3504,32 @@ textarea.w-input, textarea.w-select {
 
 .section-8 {
   margin-top: 30px;
+}
+
+.paragraph-12 {
+  text-align: center;
+}
+
+.heading-34 {
+  color: #fff;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.button-4 {
+  background-color: #950a00;
+  border-radius: 20px 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.image-18 {
+  width: 100px;
+  margin-top: 21px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3983,7 +4010,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .container-32 {
-    padding-top: 33px;
+    padding-top: 0;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -4004,6 +4031,10 @@ textarea.w-input, textarea.w-select {
 
   .paragraph-7, .paragraph-8, .paragraph-11 {
     text-align: center;
+  }
+
+  .image-18 {
+    width: 60px;
   }
 }
 
