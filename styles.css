@@ -3921,7 +3921,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .heading-11 {
-    color: #a01616;
+    color: #fff;
   }
 
   .container-25 {
@@ -3989,7 +3989,6 @@ textarea.w-input, textarea.w-select {
 
   .heading-21 {
     text-align: center;
-    font-size: 28px;
   }
 
   .text-block-8 {
@@ -3999,7 +3998,7 @@ textarea.w-input, textarea.w-select {
 
   .heading-22 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .container-31 {
@@ -4017,7 +4016,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .heading-29 {
-    font-size: 28px;
+    font-size: 35px;
   }
 
   .container-36 {
@@ -4027,44 +4026,15 @@ textarea.w-input, textarea.w-select {
 
   .heading-30 {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
   }
 
-  .paragraph-7, .paragraph-8 {
-    text-align: center;
-  }
-
-  .heading-31, .heading-32 {
-    font-size: 28px;
-  }
-
-  .paragraph-9 {
-    font-size: 17px;
-  }
-
-  .heading-33 {
-    font-size: 28px;
-  }
-
-  .paragraph-10 {
-    font-size: 13px;
-  }
-
-  .paragraph-11 {
+  .paragraph-7, .paragraph-8, .paragraph-11 {
     text-align: center;
   }
 
   .image-18 {
     width: 60px;
-  }
-
-  .heading-35 {
-    font-size: 28px;
-  }
-
-  .heading-36, .heading-37, .heading-38 {
-    text-align: center;
-    font-size: 28px;
   }
 }
 
