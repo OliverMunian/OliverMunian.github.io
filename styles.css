@@ -2316,7 +2316,7 @@ html {
     margin-right: 0;
     font-family: Montserrat, sans-serif;
     display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   
   .container-2 {
